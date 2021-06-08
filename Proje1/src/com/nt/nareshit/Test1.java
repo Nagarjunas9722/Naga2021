@@ -3,6 +3,11 @@ package com.nt.nareshit;
 public class Test1 {
 	public static void main(String[] args) {
 		System.out.println("Test1.main()");
+		showMethod();
+	}
+
+	private static void showMethod() {
+		System.out.println("Test1.showMethod()");
 	}
 
 }
